@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3936/3936804.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator" id="calculator">
+            <div class="number-display" id="number-display">
+                 
+            </div>
+            <div class="buttons">
+                <div class="button-holder">
+                    <button id="input-button" onclick="operate(this)" value="clear">C</button>
+                    <button id="input-button" onclick="operate(this)" value="=">=</button>
+                    <button id="input-button" onclick="operate(this)" value="%">%</button>
+                    <button id="input-button" onclick="operate(this)" value="/">/</button>
+                    <button id="input-button" onclick="operate(this)" value="7">7</button>
+                    <button id="input-button" onclick="operate(this)" value="8">8</button>
+                    <button id="input-button" onclick="operate(this)" value="9">9</button>
+                    <button id="input-button" onclick="operate(this)" value="*">x</button>
+                    <button id="input-button" onclick="operate(this)" value="4">4</button>
+                    <button id="input-button" onclick="operate(this)" value="5">5</button>
+                    <button id="input-button" onclick="operate(this)" value="6">6</button>
+                    <button id="input-button" onclick="operate(this)" value="+">+</button>
+                    <button id="input-button" onclick="operate(this)" value="1">1</button>
+                    <button id="input-button" onclick="operate(this)" value="2">2</button>
+                    <button id="input-button" onclick="operate(this)" value="3">3</button>
+                    <button id="input-button" onclick="operate(this)" value=".">.</button>
+                    <button id="input-button" onclick="operate(this)" value="**">^</button>
+                    <button id="input-button" onclick="operate(this)" value="0">0</button>
+                    <button id="input-button" onclick="operate(this)" value="back" style="grid-column-end: span 2;width: 18vh;">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

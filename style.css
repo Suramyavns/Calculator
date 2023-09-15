@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #435B66;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0vh 1vw;
+}
+.calculator{
+    width: 45vh;
+    aspect-ratio: 0.6;
+    background-color: #2D4356;
+    border-radius: 40px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    border: 5px solid #2C3333;
+    transition: ease 0.5s;
+    padding: 1vh 0vw;
+    margin: 10px;
+}
+
+.calculator:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+}
+
+.number-display{
+    width: 35vh;
+    background-color: #27374D;
+    aspect-ratio: 2.4;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+    border: 3px solid #96a9a4a6;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 2rem;
+    position: relative;
+    top: -15px;
+    overflow: hidden;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    padding: 0.5vh 0.5vw;
+}
+.button-holder{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+button{
+    width: 100%;
+    border-radius: 100vw;
+    border: 2px solid #435B66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    transition: ease 0.5s;
+    background-color: #f39f5a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+button:hover{
+    transition: ease 0.5s;
+    transform: scale(1.05);
+    background-blend-mode: lighten;
+    cursor: pointer;
+}
+
+button:active{
+    transition: ease 0.05s;
+    background-color: black;
+    color: white;
+}
+
+
+
+

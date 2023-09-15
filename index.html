@@ -13,13 +13,11 @@
 <body>
     <div class="container">
         <div class="calculator" id="calculator">
-            <div class="number-display" id="number-display">
-                 
-            </div>
+            <input type="text" name="equation" id="number-display" class="number-display">
             <div class="buttons">
                 <div class="button-holder">
-                    <button id="input-button" onclick="operate(this)" value="clear">C</button>
-                    <button id="input-button" onclick="operate(this)" value="=">=</button>
+                    <button id="clear" onclick="operate(this)" value="clear">C</button>
+                    <button id="equals" onclick="operate(this)" value="=">=</button>
                     <button id="input-button" onclick="operate(this)" value="%">%</button>
                     <button id="input-button" onclick="operate(this)" value="/">/</button>
                     <button id="input-button" onclick="operate(this)" value="7">7</button>
